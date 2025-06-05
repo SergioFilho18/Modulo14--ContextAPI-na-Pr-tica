@@ -6,7 +6,7 @@ export const ShowData = () => {
     const data = useContext(Context);
     return (
         <div>
-            Tela ShowData de {data.name}
+            Tela ShowData de {data.state.user.name}
             <br />
             <Link to="/">Voltar para SignUp</Link>
         </div>
